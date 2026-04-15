@@ -1,11 +1,11 @@
 # Семен Давшиц
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=SeMe4K-0&fontSize=90" />
-</div>
 
 ### Обо мне
-Backend-разработчик из Москвы. Студент МГТУ им. Н.Э. Баумана, кафедра ИУ5 — Системы обработки информации и управления (выпуск в 2027 г.). Специализируюсь на разработке на языке Go и проектировании систем с использованием чистой архитектуры.
+Backend-разработчик из Москвы. 
+
+Студент МГТУ им. Н.Э. Баумана, кафедра ИУ5 — Системы обработки информации и управления (выпуск в 2027 г.). 
+
 
 ### Стек технологий
 <p align="left">
@@ -16,5 +16,9 @@ Backend-разработчик из Москвы. Студент МГТУ им. 
 * **Технологии:** gRPC, REST API, Docker, PostgreSQL, MySQL, Redis, MinIO
 * **Фреймворки и библиотеки:** GORM, SQLAlchemy, Aiohttp, JavaFX, JDBC (HikariCP)
 
+
 ### Контакты
-* **Telegram:** [SeMe4K00](https://t.me/SeMe4K00)
+* **Email:** s.davshits@yandex.ru
+* **Telegram:** [SeMe4K00](https://t.me/SeMe4K00) 
+* **GitHub:** [SeMe4K-0](https://github.com/SeMe4K-0/)
+* **VK:** [sam1537](https://vk.com/sam1537)
