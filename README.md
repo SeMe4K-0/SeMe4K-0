@@ -9,11 +9,11 @@ Backend-разработчик из Москвы.
 
 ### Стек технологий
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=go,py,java,postgres,redis,docker,linux,git" />
+  <img src="https://skillicons.dev/icons?i=go,py,java,postgres,redis,docker,linux,git,elixir" />
 </p>
 
-* **Языки:** Golang, Python, Java
-* **Технологии:** gRPC, REST API, Docker, PostgreSQL, MySQL, Redis, MinIO
+* **Языки:** Golang, Python, Java, Elixir
+* **Технологии:** gRPC, REST API, Docker, PostgreSQL, MySQL, Redis, MinIO, Erlang/OTP
 * **Фреймворки и библиотеки:** GORM, SQLAlchemy, Aiohttp, JavaFX, JDBC (HikariCP)
 
 
