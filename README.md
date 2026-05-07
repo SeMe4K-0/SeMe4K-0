@@ -2,17 +2,18 @@
 
 
 ### Обо мне
-Backend-разработчик из Москвы. 
+Fullstack - разработчик из Москвы. 
 
 Студент МГТУ им. Н.Э. Баумана, кафедра ИУ5 — Системы обработки информации и управления (выпуск в 2027 г.). 
 
 
 ### Стек технологий
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=go,py,java,postgres,redis,docker,linux,git" />
+  <img src="https://skillicons.dev/icons?i=go,py,java,react,js,ts,postgres,redis,docker" />
 </p>
 
-* **Языки:** Golang, Python, Java
+* **Backend:**  Golang, Python, Java
+* **Frontend:** React, JavaScript, TypeScript
 * **Технологии:** gRPC, REST API, Docker, PostgreSQL, MySQL, Redis, MinIO
 * **Фреймворки и библиотеки:** GORM, SQLAlchemy, Aiohttp, JavaFX
 
