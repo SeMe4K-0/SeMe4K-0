@@ -33,7 +33,7 @@
 
 | Год | Соревнование | Результат | Ссылка |
 |------|------------|--------|---|
-| 2026 | **E-CUP 2026 (Ozon)** — прогноз GMV пользователей на 30 дней · команда O3 | **14 место из 316** · RMSLE 1.6631 | [решение](https://github.com/SeMe4K-0/ozon-ecup-2026-user-ltv) |
+| 2026 | **E-CUP 2026 (Ozon)** — прогноз GMV пользователей на 30 дней · команда O3 | **14 место из 316** · RMSLE 1.6631 | [решение](https://github.com/SeMe4K-0/Ozon-ecup-2026-user-ltv) |
 | 2026 | **Yandex ML Challenge** (Young & Yandex) — финал | **42 место из 100 финалистов** | [сертификат](certificates/2026-yandex-ml-challenge-42.pdf) |
 | 2026 | **ШАД Яндекса** — интенсив AI Agents Security Week | Guardrail-детектор **99.81 / 100** (старт 61.54) · red team **71.43 / 100** | [сертификат](certificates/2026-shad-ai-agents-security-week.pdf) |
 | 2026 | **Хакатон DatsSol** (DatsTeam) — бот управления колонией | **16 место из 166** | [решение](https://github.com/SeMe4K-0/Hackathon_DatsTeam) |
@@ -105,16 +105,16 @@
 
 ## Проекты
 
-**[Stem Separator](https://github.com/SeMe4K-0/System-for-dividing-music-into-instrumental-tracks)** &nbsp;·&nbsp; Разделение трека на 4 инструментальные дорожки
+**[Stem Separator](https://github.com/SeMe4K-0/Stem-separator)** &nbsp;·&nbsp; Разделение трека на 4 инструментальные дорожки
 > Demucs (htdemucs) · REST API + Web UI + CLI · метрики через museval на MUSDB18-sample: **SDR vocals 9.34 dB, bass 9.90 dB** (выше типичных литературных для htdemucs), drums 5.75, other 3.88 · MPS/CUDA/CPU autodetect, chunked inference, SHA256-кэш · **3:17-трек за 14 с на M4 Pro (×14 realtime)** · 19/19 тестов, Docker Compose
 
-**[FAD Benchmark](https://github.com/SeMe4K-0/benchmark-music-generation-fad-fadinf-clap)** &nbsp;·&nbsp; Оценка генеративных моделей музыки · НИР МГТУ
+**[FAD Benchmark](https://github.com/SeMe4K-0/Music-generation-fad-benchmark)** &nbsp;·&nbsp; Оценка генеративных моделей музыки · НИР МГТУ
 > Сравнение 5 open-source text-to-music моделей (MusicGen, AudioLDM-M/L, MusicLDM, Riffusion) по FAD, **FAD-inf** (экстраполяция к N→∞, снимает смещение малой выборки), per-song FAD и CLAP Score · три эмбеддера: CLAP-LAION-Music, MERT-v1-95M, EnCodec · два референса: FMA-Pop и MTG-Jamendo · лидер зависит от референса: **AudioLDM-M на FMA-Pop (CLAP-FAD 0.039)**, **MusicLDM на MTG-Jamendo (0.0044)**
 
-**[AI Team Assistant](https://github.com/SeMe4K-0/AI-assistant)** &nbsp;·&nbsp; LLM-ассистент со строгим форматом ответа · [live demo](https://ai-assistant-beige-xi.vercel.app)
+**[AI Team Assistant](https://github.com/SeMe4K-0/Ai-team-assistant)** &nbsp;·&nbsp; LLM-ассистент со строгим форматом ответа · [live demo](https://ai-assistant-beige-xi.vercel.app)
 > Google Gemini через server-side route · **structured output через `responseSchema`** — JSON валиден по построению, парсинг в одну строку · системный промпт собирается из настроек тона и контекста команды · **prompt-evals**: скрипт прогоняет 4 синтетических запроса, включая **prompt-injection**, с проверкой структуры и content-инвариантов · параллельный RU/EN-запрос с кэшированием
 
-**[Smoking Detection](https://github.com/SeMe4K-0/Detecting-and-tracking-smoking-activity-based-on-real-time-video)** &nbsp;·&nbsp; Детекция факта курения по видеопотоку, до инференса на устройстве
+**[Smoking Detection](https://github.com/SeMe4K-0/Smoking-detection-yolo-coreml)** &nbsp;·&nbsp; Детекция факта курения по видеопотоку, до инференса на устройстве
 > YOLO26n на Smoking Person Detection (Roboflow), классы person / smoke · **mAP50 0.713 · mAP50-95 0.317 · Precision 0.744 · Recall 0.680** · факт курения фиксируется по пересечению bbox · экспорт в CoreML (.mlpackage) для iOS
 
 ---
