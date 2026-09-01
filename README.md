@@ -12,11 +12,16 @@
 
 ---
 
-**ML-инженер.** Временные ряды, computer vision, аудио и речь, LLM и безопасность AI-агентов.
+**ML-инженер.** Временные ряды и причинность, computer vision, аудио и речь, LLM и безопасность AI-агентов.
 
 **Временные ряды и табличные задачи** — прогноз поведения 250 000 пользователей на 30 дней
 вперёд по 409 дням истории: якорная постановка «пользователь × дата», обучение прямо в шкале
 метрики, ансамбль GRU и градиентного бустинга.
+
+**Причинность и работа с данными** — uplift-моделирование на 45.8 млн покупок:
+витрина признаков оконными функциями PostgreSQL из сырых чеков, метрики причинности
+написаны руками, предрегистрация заморожена до первой модели, аудитор утечек доказан
+мутационным тестом.
 
 **Computer vision** — сегментация фаз на панорамах оптической микроскопии до 300 Мп с
 интерпретируемым правилом вместо чёрного ящика и детекция на видеопотоке с инференсом
@@ -56,6 +61,9 @@
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Optuna](https://img.shields.io/badge/Optuna-2E5C8A?style=flat-square)
+![statsmodels](https://img.shields.io/badge/statsmodels%20%C2%B7%20bootstrap-8CAAE6?style=flat-square)
+![causal](https://img.shields.io/badge/uplift%20%C2%B7%20causal%20inference-6A0DAD?style=flat-square)
 
 </td>
 <td valign="top" width="25%">
@@ -91,6 +99,7 @@
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL%20%C2%B7%20PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker%20%C2%B7%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -104,6 +113,9 @@
 </table>
 
 ## Проекты
+
+**[X5 RetailHero Uplift](https://github.com/SeMe4K-0/X5-retailhero-uplift)** &nbsp;·&nbsp; Кому предложение меняет поведение
+> 45.8 млн покупок в PostgreSQL, витрина на оконных функциях из сырых чеков (готовые агрегаты не используются) · dbt: staging → marts → audit, 42 теста · T/S/X-learner и метрики причинности (Qini, AUUC, uplift@k) написаны руками · **топ-10 % по отклику и топ-10 % по приросту пересекаются на 0.44 %** [0.26; 0.62] при случайном уровне 10 % · **Δ uplift@10 % = +9.53 п.п.** [+6.63; +12.54], бутстрап 2000 реплик · политика по отклику убыточна: точка окупаемости 4.67 п.п. против фактических 0.53 · предрегистрация заморожена до первой модели, аудитор утечек доказан мутационным тестом
 
 **[Stem Separator](https://github.com/SeMe4K-0/Stem-separator)** &nbsp;·&nbsp; Разделение трека на 4 инструментальные дорожки
 > Demucs (htdemucs) · REST API + Web UI + CLI · метрики через museval на MUSDB18-sample: **SDR vocals 9.34 dB, bass 9.90 dB** (выше типичных литературных для htdemucs), drums 5.75, other 3.88 · MPS/CUDA/CPU autodetect, chunked inference, SHA256-кэш · **3:17-трек за 14 с на M4 Pro (×14 realtime)** · 19/19 тестов, Docker Compose
