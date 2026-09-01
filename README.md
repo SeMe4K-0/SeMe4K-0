@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-[![Резюме PDF](https://img.shields.io/badge/%F0%9F%93%84%20%D0%A0%D0%95%D0%97%D0%AE%D0%9C%D0%95-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20PDF-2ea44f?style=for-the-badge)](https://github.com/SeMe4K-0/SeMe4K-0/raw/main/cv.pdf)
+[![Резюме PDF](https://img.shields.io/badge/%F0%9F%93%84%20%D0%A0%D0%95%D0%97%D0%AE%D0%9C%D0%95-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20PDF-2ea44f?style=for-the-badge)](https://github.com/SeMe4K-0/SeMe4K-0/raw/main/Semyon_Davshits_CV.pdf)
 [![Telegram](https://img.shields.io/badge/Telegram-@SeMe4KO0-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SeMe4KO0)
 [![Email](https://img.shields.io/badge/Email-s.davshits@yandex.ru-CC0000?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:s.davshits@yandex.ru)
 
