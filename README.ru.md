@@ -7,11 +7,9 @@
 
 <img src="assets/visor-banner.svg" width="900" alt="Семён Давшиц - Data Scientist / ML-инженер" />
 
-<a href="https://github.com/SeMe4K-0/SeMe4K-0/raw/main/Semyon_Davshits_CV.pdf"><img src="https://img.shields.io/badge/%D0%A0%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-170131?style=for-the-badge&logo=googledocs&logoColor=FF5CA8" height="38" alt="Резюме" /></a>&nbsp;
-<a href="https://t.me/SeMe4KO0"><img src="https://img.shields.io/badge/Telegram-170131?style=for-the-badge&logo=telegram&logoColor=FF5CA8" height="38" alt="Telegram" /></a>&nbsp;
-<a href="mailto:s.davshits@yandex.ru"><img src="https://img.shields.io/badge/Email-170131?style=for-the-badge&logo=maildotru&logoColor=FF5CA8" height="38" alt="Email" /></a>
-
-<img src="https://readme-typing-svg.demolab.com?font=Tiny5&size=28&duration=2400&pause=1100&color=FF5CA8&center=true&vCenter=true&width=900&height=48&lines=UPLIFT-%D0%9C%D0%9E%D0%94%D0%95%D0%9B%D0%98%20%D0%9D%D0%90%2045.8%20%D0%9C%D0%9B%D0%9D%20%D0%A7%D0%95%D0%9A%D0%9E%D0%92;14%20%D0%9C%D0%95%D0%A1%D0%A2%D0%9E%20%D0%98%D0%97%20316%20%D0%9D%D0%90%20E-CUP%202026;MACRO-F1%200.91%20%D0%9D%D0%90%20%D0%9F%D0%90%D0%9D%D0%9E%D0%A0%D0%90%D0%9C%D0%90%D0%A5%20300%20%D0%9C%D0%9F;SDR%209.34%20DB%20%D0%9D%D0%90%20%D0%92%D0%9E%D0%9A%D0%90%D0%9B%D0%95" width="900" alt="Uplift-модели на 45.8 млн чеков · 14 место из 316 на E-CUP 2026 · macro-F1 0.91 · SDR 9.34 dB" />
+<a href="https://github.com/SeMe4K-0/SeMe4K-0/raw/main/Semyon_Davshits_CV.pdf"><img src="assets/btn-ru-resume.svg" width="32%" alt="Резюме" /></a>
+<a href="https://t.me/SeMe4KO0"><img src="assets/btn-ru-telegram.svg" width="32%" alt="Telegram" /></a>
+<a href="mailto:s.davshits@yandex.ru"><img src="assets/btn-ru-email.svg" width="32%" alt="Email" /></a>
 
 </div>
 
@@ -19,7 +17,7 @@
 
 Студент 4 курса МГТУ им. Н. Э. Баумана, кафедра ИУ5, выпуск 2027.
 Строю модели на табличных данных и временных рядах, занимаюсь uplift-моделированием и статистикой
-экспериментов, а также computer vision и аудио. Довожу модели до сервиса с API, тестами и Docker.
+экспериментов, а также computer vision и аудио. Довожу модели до сервиса с API, тестами и Docker. Открыт к стажировкам в Data Science и ML.
 
 <img src="assets/h-ru-skills.png" width="900" alt="Навыки" />
 
@@ -71,14 +69,9 @@
 |---|---|---|
 | **МГТУ им. Н. Э. Баумана** | Бакалавриат, 09.03.01 «Информатика и вычислительная техника», кафедра ИУ5 | 4 курс, выпуск 2027 |
 
-<img src="assets/h-ru-activity.png" width="900" alt="Активность" />
-
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/SeMe4K-0/SeMe4K-0/output/snake-visor.svg" width="900" alt="Змейка ест календарь коммитов" />
 
 <img src="assets/loss-curve.svg" width="900" alt="Лог обучения: val loss начинает расти, early stopping" />
 
 </div>
 
-<img src="assets/h-ru-footer.png" width="900" alt="Открыт к стажировкам в Data Science и ML" />

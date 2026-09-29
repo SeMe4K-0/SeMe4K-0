@@ -7,11 +7,9 @@
 
 <img src="assets/visor-banner.svg" width="900" alt="Semyon Davshits - Data Scientist / ML Engineer" />
 
-<a href="https://github.com/SeMe4K-0/SeMe4K-0/raw/main/Semyon_Davshits_CV_EN.pdf"><img src="https://img.shields.io/badge/Resume-170131?style=for-the-badge&logo=googledocs&logoColor=FF5CA8" height="38" alt="Resume" /></a>&nbsp;
-<a href="https://t.me/SeMe4KO0"><img src="https://img.shields.io/badge/Telegram-170131?style=for-the-badge&logo=telegram&logoColor=FF5CA8" height="38" alt="Telegram" /></a>&nbsp;
-<a href="mailto:s.davshits@yandex.ru"><img src="https://img.shields.io/badge/Email-170131?style=for-the-badge&logo=maildotru&logoColor=FF5CA8" height="38" alt="Email" /></a>
-
-<img src="https://readme-typing-svg.demolab.com?font=Tiny5&size=28&duration=2400&pause=1100&color=FF5CA8&center=true&vCenter=true&width=900&height=48&lines=UPLIFT+MODELLING+ON+45.8M+RECEIPTS;14TH+OF+316+AT+E-CUP+2026;MACRO-F1+0.91+ON+300+MP+PANORAMAS;SDR+9.34+DB+ON+VOCALS" width="900" alt="Uplift modelling on 45.8M receipts · 14th of 316 at E-CUP 2026 · macro-F1 0.91 · SDR 9.34 dB" />
+<a href="https://github.com/SeMe4K-0/SeMe4K-0/raw/main/Semyon_Davshits_CV_EN.pdf"><img src="assets/btn-en-resume.svg" width="32%" alt="Resume" /></a>
+<a href="https://t.me/SeMe4KO0"><img src="assets/btn-en-telegram.svg" width="32%" alt="Telegram" /></a>
+<a href="mailto:s.davshits@yandex.ru"><img src="assets/btn-en-email.svg" width="32%" alt="Email" /></a>
 
 </div>
 
@@ -19,7 +17,7 @@
 
 Fourth-year student at Bauman Moscow State Technical University (Dept. IU5), graduating in 2027.
 I build models on tabular data and time series, work on uplift modelling and experiment statistics,
-and also do computer vision and audio. I take models through to a service with an API, tests and Docker.
+and also do computer vision and audio. I take models through to a service with an API, tests and Docker. Open to Data Science and ML internships.
 
 <img src="assets/h-en-skills.png" width="900" alt="Skills" />
 
@@ -71,14 +69,9 @@ and also do computer vision and audio. I take models through to a service with a
 |---|---|---|
 | **Bauman Moscow State Technical University** | BSc, Informatics and Computer Engineering (09.03.01), Dept. IU5 | 4th year, graduating 2027 |
 
-<img src="assets/h-en-activity.png" width="900" alt="Activity" />
-
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/SeMe4K-0/SeMe4K-0/output/snake-visor.svg" width="900" alt="Snake eating the contribution graph" />
 
 <img src="assets/loss-curve.svg" width="900" alt="Training log: validation loss starts rising, early stopping" />
 
 </div>
 
-<img src="assets/h-en-footer.png" width="900" alt="Open to Data Science and ML internships" />
