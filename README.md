@@ -1,22 +1,25 @@
+<p align="right">
+  <a href="https://github.com/SeMe4K-0/SeMe4K-0/blob/main/README.md"><img src="https://img.shields.io/badge/English-FF5CA8?style=for-the-badge" height="26" alt="English" /></a>
+  <a href="https://github.com/SeMe4K-0/SeMe4K-0/blob/main/README.ru.md"><img src="https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-2B1052?style=for-the-badge" height="26" alt="Русский" /></a>
+</p>
+
 <div align="center">
 
 <img src="assets/banner.png" width="900" alt="Semyon Davshits - Data Scientist / ML Engineer" />
 
-[![Resume](https://img.shields.io/badge/Resume-170131?style=for-the-badge&logo=googledocs&logoColor=FF5CA8)](https://github.com/SeMe4K-0/SeMe4K-0/raw/main/Semyon_Davshits_CV_EN.pdf)
-[![Telegram](https://img.shields.io/badge/Telegram-170131?style=for-the-badge&logo=telegram&logoColor=FF5CA8)](https://t.me/SeMe4KO0)
-[![Email](https://img.shields.io/badge/Email-170131?style=for-the-badge&logo=maildotru&logoColor=FF5CA8)](mailto:s.davshits@yandex.ru)
-
-<b>English</b> · <a href="https://github.com/SeMe4K-0/SeMe4K-0/blob/main/README.ru.md">Русский</a>
+<a href="https://github.com/SeMe4K-0/SeMe4K-0/raw/main/Semyon_Davshits_CV_EN.pdf"><img src="https://img.shields.io/badge/Resume-170131?style=for-the-badge&logo=googledocs&logoColor=FF5CA8" height="38" alt="Resume" /></a>&nbsp;
+<a href="https://t.me/SeMe4KO0"><img src="https://img.shields.io/badge/Telegram-170131?style=for-the-badge&logo=telegram&logoColor=FF5CA8" height="38" alt="Telegram" /></a>&nbsp;
+<a href="mailto:s.davshits@yandex.ru"><img src="https://img.shields.io/badge/Email-170131?style=for-the-badge&logo=maildotru&logoColor=FF5CA8" height="38" alt="Email" /></a>
 
 </div>
 
-## About
+<img src="assets/h-en-about.png" width="900" alt="About" />
 
 Fourth-year student at Bauman Moscow State Technical University (Dept. IU5), graduating in 2027.
 I build models on tabular data and time series, work on uplift modelling and experiment statistics,
 and also do computer vision and audio. I take models through to a service with an API, tests and Docker.
 
-## Skills
+<img src="assets/h-en-skills.png" width="900" alt="Skills" />
 
 | Area | Stack |
 |---|---|
@@ -25,52 +28,45 @@ and also do computer vision and audio. I take models through to a service with a
 | **LLM · NLP** | ![Transformers](https://img.shields.io/badge/Transformers-2B1052?style=flat-square&logo=huggingface&logoColor=FF5CA8) ![Gemini API](https://img.shields.io/badge/Gemini%20API-2B1052?style=flat-square&logo=googlegemini&logoColor=FF5CA8) ![CLAP · MERT · EnCodec](https://img.shields.io/badge/CLAP%20%C2%B7%20MERT%20%C2%B7%20EnCodec-2B1052?style=flat-square) ![TF-IDF · embeddings](https://img.shields.io/badge/TF--IDF%20%C2%B7%20embeddings-2B1052?style=flat-square) ![prompt engineering · evals](https://img.shields.io/badge/prompt%20engineering%20%C2%B7%20evals-2B1052?style=flat-square) ![guardrails · red team](https://img.shields.io/badge/guardrails%20%C2%B7%20red%20team-2B1052?style=flat-square) |
 | **Data · Infra** | ![SQL · PostgreSQL](https://img.shields.io/badge/SQL%20%C2%B7%20PostgreSQL-2B1052?style=flat-square&logo=postgresql&logoColor=FF5CA8) ![dbt](https://img.shields.io/badge/dbt-2B1052?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-2B1052?style=flat-square&logo=fastapi&logoColor=FF5CA8) ![Docker · Compose](https://img.shields.io/badge/Docker%20%C2%B7%20Compose-2B1052?style=flat-square&logo=docker&logoColor=FF5CA8) ![pytest](https://img.shields.io/badge/pytest-2B1052?style=flat-square&logo=pytest&logoColor=FF5CA8) ![Git · Git LFS](https://img.shields.io/badge/Git%20%C2%B7%20Git%20LFS-2B1052?style=flat-square&logo=git&logoColor=FF5CA8) ![Linux](https://img.shields.io/badge/Linux-2B1052?style=flat-square&logo=linux&logoColor=FF5CA8) ![Go](https://img.shields.io/badge/Go-2B1052?style=flat-square&logo=go&logoColor=FF5CA8) ![gRPC](https://img.shields.io/badge/gRPC-2B1052?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-2B1052?style=flat-square&logo=redis&logoColor=FF5CA8) |
 
-## Projects
+<img src="assets/h-en-projects.png" width="900" alt="Projects" />
 
-**[X5 RetailHero Uplift](https://github.com/SeMe4K-0/X5-retailhero-uplift)** · who actually changes behaviour when contacted
+**[X5 RetailHero Uplift](https://github.com/SeMe4K-0/X5-retailhero-uplift)** · who actually changes behaviour when contacted &nbsp;![Δ uplift@10% +9.53 pp](https://img.shields.io/badge/%CE%94%20uplift%4010%25-%2B9.53%20pp-FF5CA8?style=flat-square&labelColor=170131)
 > Uplift modelling on 45.8M receipt lines in PostgreSQL (dbt, 42 tests). T-, S- and X-learners on CatBoost and the causal metrics (Qini, AUUC, uplift@k) written from scratch. The top 10% by response and the top 10% by uplift overlap by only **0.44%** against 10% by chance; **Δ uplift@10% = +9.53 pp** [+6.63; +12.54], 2,000-replicate bootstrap. Response-based targeting loses money (0.53 pp against a 4.67 pp break-even), while uplift targeting is worth **₽612k** per campaign. The analysis plan was pre-registered before the first model, and a mutation test proves the leakage auditor works.
 
-**[E-CUP 2026 (Ozon)](https://github.com/SeMe4K-0/Ozon-ecup-2026-user-ltv)** · 30-day GMV forecast for 250,000 users · team of 2
+**[E-CUP 2026 (Ozon)](https://github.com/SeMe4K-0/Ozon-ecup-2026-user-ltv)** · 30-day GMV forecast for 250,000 users · team of 2 &nbsp;![rank 14 of 316](https://img.shields.io/badge/rank-14%20of%20316-FF5CA8?style=flat-square&labelColor=170131)
 > **14th of 316**, private RMSLE **1.6631**. Every training row is a user × date anchor with features strictly before that date, the model is trained directly in the metric's scale (log1p), and the final model is a GRU + gradient boosting ensemble. Adversarial validation exposed an anchor-date leak (AUC 1.0); once it was removed, 93% of the local improvement turned out to be illusory.
 
-**[OreScope](https://github.com/SeMe4K-0/OreScope)** · ore grade from thin-section microscopy · Nornickel AI Science Hack finalist
+**[OreScope](https://github.com/SeMe4K-0/OreScope)** · ore grade from thin-section microscopy · Nornickel AI Science Hack finalist &nbsp;![macro-F1 0.91](https://img.shields.io/badge/macro--F1-0.91-FF5CA8?style=flat-square&labelColor=170131)
 > U-Net phase segmentation on panoramas of up to 300 MP; the grade follows from an explicit expert rule over the mask. **macro-F1 0.91** on intergrowth type, **0.77** end-to-end. Colour normalisation lifted the unseen camera domain from 5 to 14 samples out of 20 without new labels. A panorama takes 124 s against a 5-minute requirement; FastAPI, Docker, built in 48 hours.
 
-**[Stem Separator](https://github.com/SeMe4K-0/Stem-separator)** · splitting a track into four stems
+**[Stem Separator](https://github.com/SeMe4K-0/Stem-separator)** · splitting a track into four stems &nbsp;![SDR vocals 9.34 dB](https://img.shields.io/badge/SDR%20vocals-9.34%20dB-FF5CA8?style=flat-square&labelColor=170131)
 > Demucs (htdemucs) behind a REST API, a web UI and a CLI. **SDR 9.34 dB** on vocals and **9.90 dB** on bass (museval, MUSDB18-sample, 5 tracks). A 3:17 track is separated in **14 s** on an M4 Pro (×14 real time). MPS/CUDA/CPU autodetect, chunked inference, 19 tests, Docker Compose.
 
-**[FAD Benchmark](https://github.com/SeMe4K-0/Music-generation-fad-benchmark)** · evaluating generative music models · research at Bauman MSTU
+**[FAD Benchmark](https://github.com/SeMe4K-0/Music-generation-fad-benchmark)** · evaluating generative music models · research at Bauman MSTU &nbsp;![benchmark 5 models · 3 embedders](https://img.shields.io/badge/benchmark-5%20models%20%C2%B7%203%20embedders-FF5CA8?style=flat-square&labelColor=170131)
 > Five open-source text-to-music models (MusicGen, AudioLDM-M/L, MusicLDM, Riffusion) compared with FAD, **FAD-inf**, per-song FAD and CLAP Score, using three embedders (CLAP-LAION-Music, MERT-v1-95M, EnCodec) and two reference sets. The leader depends on the reference: **AudioLDM-M** on FMA-Pop (CLAP-FAD 0.039), **MusicLDM** on MTG-Jamendo (0.0044).
 
-**[AI Team Assistant](https://github.com/SeMe4K-0/Ai-team-assistant)** · LLM assistant with a strict answer format · [live demo](https://ai-assistant-beige-xi.vercel.app)
+**[AI Team Assistant](https://github.com/SeMe4K-0/Ai-team-assistant)** · LLM assistant with a strict answer format &nbsp;[![demo live](https://img.shields.io/badge/demo-live-FF5CA8?style=flat-square&labelColor=170131)](https://ai-assistant-beige-xi.vercel.app)
 > Google Gemini behind a server-side route with structured output through `responseSchema`, so the JSON is valid by construction. Prompt-evals run 4 synthetic requests, including a prompt injection, and check the structure and content invariants.
 
-**[Smoking Detection](https://github.com/SeMe4K-0/Smoking-detection-yolo-coreml)** · detecting smoking in a video stream, on-device
+**[Smoking Detection](https://github.com/SeMe4K-0/Smoking-detection-yolo-coreml)** · detecting smoking in a video stream, on-device &nbsp;![mAP50 0.713](https://img.shields.io/badge/mAP50-0.713-FF5CA8?style=flat-square&labelColor=170131)
 > YOLO26n on person / smoke classes: **mAP50 0.713**, mAP50-95 0.317, precision 0.744, recall 0.680. Smoking is flagged by box overlap, and the model is exported to CoreML (.mlpackage) for inference on iOS.
 
 [![View all projects](https://img.shields.io/badge/View%20all%20projects-FF5CA8?style=for-the-badge&logo=github&logoColor=170131)](https://github.com/SeMe4K-0?tab=repositories)
 
-## Competitions
+<img src="assets/h-en-competitions.png" width="900" alt="Competitions" />
 
 | Year | Competition | Result | Link |
 |---|---|---|---|
-| 2026 | **E-CUP 2026 (Ozon)**: 30-day user GMV forecast · team O3 | **14th of 316** · RMSLE 1.6631 | [solution](https://github.com/SeMe4K-0/Ozon-ecup-2026-user-ltv) |
-| 2026 | **Yandex ML Challenge** (Young & Yandex), final | **42nd of 100 finalists** | [certificate](certificates/2026-yandex-ml-challenge-42.pdf) |
-| 2026 | **Yandex School of Data Analysis**: AI Agents Security Week | guardrail **99.81 / 100** (from 61.54) · red team **71.43 / 100** | [certificate](certificates/2026-shad-ai-agents-security-week.pdf) |
-| 2026 | **DatsSol hackathon** (DatsTeam): colony-control bot | **16th of 166** | [solution](https://github.com/SeMe4K-0/Hackathon_DatsTeam) |
-| 2026 | **Nornickel AI Science Hack**: ore classification from microscopy | finalist · macro-F1 **0.91** | [solution](https://github.com/SeMe4K-0/OreScope) |
+| 2026 | **E-CUP 2026 (Ozon)**: 30-day user GMV forecast · team O3 | ![14th of 316](https://img.shields.io/badge/14th%20of%20316-FF5CA8?style=flat-square) RMSLE 1.6631 | [solution](https://github.com/SeMe4K-0/Ozon-ecup-2026-user-ltv) |
+| 2026 | **Yandex ML Challenge** (Young & Yandex), final | ![42nd of 100 finalists](https://img.shields.io/badge/42nd%20of%20100%20finalists-FF5CA8?style=flat-square) | [certificate](certificates/2026-yandex-ml-challenge-42.pdf) |
+| 2026 | **Yandex School of Data Analysis**: AI Agents Security Week | ![99.81 / 100](https://img.shields.io/badge/99.81%20%2F%20100-FF5CA8?style=flat-square) guardrail, from 61.54 · red team 71.43 / 100 | [certificate](certificates/2026-shad-ai-agents-security-week.pdf) |
+| 2026 | **DatsSol hackathon** (DatsTeam): colony-control bot | ![16th of 166](https://img.shields.io/badge/16th%20of%20166-FF5CA8?style=flat-square) | [solution](https://github.com/SeMe4K-0/Hackathon_DatsTeam) |
+| 2026 | **Nornickel AI Science Hack**: ore classification from microscopy | ![finalist](https://img.shields.io/badge/finalist-FF5CA8?style=flat-square) macro-F1 0.91 | [solution](https://github.com/SeMe4K-0/OreScope) |
 
-## Education
+<img src="assets/h-en-education.png" width="900" alt="Education" />
 
-| Institution | Programme | Year | Document |
-|---|---|---|---|
-| **Bauman Moscow State Technical University** | BSc, Informatics and Computer Engineering (09.03.01), Dept. IU5 | 4th year, graduating 2027 | |
-| **T-Education** | Course «AI and Generative Models», graduate diploma | 2026 | [diploma](certificates/2026-tbank-ai-generative-models.pdf) |
+| Institution | Programme | Year |
+|---|---|---|
+| **Bauman Moscow State Technical University** | BSc, Informatics and Computer Engineering (09.03.01), Dept. IU5 | 4th year, graduating 2027 |
 
----
-
-<div align="center">
-
-*Open to Data Science and ML internships*
-
-</div>
+<img src="assets/h-en-footer.png" width="900" alt="Open to Data Science and ML internships" />
