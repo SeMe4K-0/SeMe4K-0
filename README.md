@@ -57,6 +57,7 @@ and also do computer vision and audio. I take models through to a service with a
 
 | Year | Competition | Result | Link |
 |---|---|---|---|
+| 2026 | **RSNA Knee Abnormality Detection** (Kaggle) | ![220th of 6,425 · silver](https://img.shields.io/badge/220th%20of%206%2C425%20%C2%B7%20silver-FF5CA8?style=flat-square) | [write-up](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/220th-place-silver-gold-batch-fine-tuning-on-to) |
 | 2026 | **E-CUP 2026 (Ozon)**: 30-day user GMV forecast · team O3 | ![14th of 316](https://img.shields.io/badge/14th%20of%20316-FF5CA8?style=flat-square) RMSLE 1.6631 | [solution](https://github.com/SeMe4K-0/Ozon-ecup-2026-user-ltv) |
 | 2026 | **Yandex ML Challenge** (Young & Yandex), final | ![42nd of 100 finalists](https://img.shields.io/badge/42nd%20of%20100%20finalists-FF5CA8?style=flat-square) | [certificate](certificates/2026-yandex-ml-challenge-42.pdf) |
 | 2026 | **Yandex School of Data Analysis**: AI Agents Security Week | ![99.81 / 100](https://img.shields.io/badge/99.81%20%2F%20100-FF5CA8?style=flat-square) guardrail, from 61.54 · red team 71.43 / 100 | [certificate](certificates/2026-shad-ai-agents-security-week.pdf) |
