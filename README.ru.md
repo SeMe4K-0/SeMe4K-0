@@ -57,7 +57,7 @@
 
 | Год | Соревнование | Результат | Ссылка |
 |---|---|---|---|
-| 2026 | **RSNA Knee Abnormality Detection** (Kaggle) | ![220 место из 6 425](https://img.shields.io/badge/220%20%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%B8%D0%B7%206%20425-FF5CA8?style=flat-square) серебро · ROC AUC 0.944 | [write-up](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/220th-place-silver-gold-batch-fine-tuning-on-to) |
+| 2026 | **RSNA Knee Abnormality Detection** (Kaggle) | ![220 место из 6 425](https://img.shields.io/badge/220%20%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%B8%D0%B7%206%20425-FF5CA8?style=flat-square) ROC AUC 0.944 | [write-up](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/220th-place-silver-gold-batch-fine-tuning-on-to) |
 | 2026 | **E-CUP 2026 (Ozon)**: прогноз GMV пользователей на 30 дней · команда O3 | ![14 место из 316](https://img.shields.io/badge/14%20%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%B8%D0%B7%20316-FF5CA8?style=flat-square) RMSLE 1.6631 | [решение](https://github.com/SeMe4K-0/Ozon-ecup-2026-user-ltv) |
 | 2026 | **Yandex ML Challenge** (Young & Yandex), финал | ![42 место из 100 финалистов](https://img.shields.io/badge/42%20%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%B8%D0%B7%20100%20%D1%84%D0%B8%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%B2-FF5CA8?style=flat-square) | [сертификат](certificates/2026-yandex-ml-challenge-42.pdf) |
 | 2026 | **ШАД Яндекса**: интенсив AI Agents Security Week | ![99.81 / 100](https://img.shields.io/badge/99.81%20%2F%20100-FF5CA8?style=flat-square) guardrail, старт 61.54 · red team 71.43 / 100 | [сертификат](certificates/2026-shad-ai-agents-security-week.pdf) |
